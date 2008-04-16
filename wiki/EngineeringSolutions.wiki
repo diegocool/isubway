@@ -1,5 +1,5 @@
 #summary Describes main engineering solutions that have to be used in application implementation.
-#labels Phase-Requirements
+#labels Phase-Design
 
 = iSubway engineering solutions =
 
