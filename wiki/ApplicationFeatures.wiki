@@ -1,3 +1,5 @@
+#summary Describes iSubway application features.
+
 = iSubway application features =
 
 This document describes iSubway application features.
