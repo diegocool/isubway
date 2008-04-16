@@ -1,0 +1,14 @@
+= iSubway application features =
+
+This document describes iSubway application features.
+First of all we should know what do we want to do. Write here any features you want to see in this application.
+
+== Features that application MUST HAVE: ==
+ # Displaying subway map
+ # Searching subway station
+ # Plan trip (from station A to station B)
+ # Display found trip
+
+== Features that will be done later: ==
+ # Show subway station in Google Maps
+ # Show additional info about subway station 
