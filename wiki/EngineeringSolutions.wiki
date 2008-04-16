@@ -1,0 +1,12 @@
+#summary Describes main engineering solutions that have to be used in application implementation.
+
+= iSubway engineering solutions =
+
+== Problems ==
+ # Subway map file format
+ * At this moment i have one problem - i need subway map file format. It have to include information that allows to draw map, select any station on the map (i.e. one can see selected station on drawn map) and draw path between two stations. Also it have to include traveling times between stations.
+
+== Solutions ==
+ # Subway map file format
+ * Subway map file is XML-file. XSD-schema have to be developed.
+ * The simplest solution - drawing subway map as bitmap. This solution allows us even to select any station - we can include bitmap coordinates of subway stations and draw circle at this point. But i don't know how we can draw path between two stations. We can draw lines between all stations in path but this path will be drawn not over "real" path that drawn on the bitmap. This leads us to next solution. We can store only station's coordinates on the virtual bitmap. When we want to draw full map, we draw all stations and link them by lines. This solution allows us to draw path between two stations same as the "real" path. But such map well be ugly. I will be glad to see any your ideas that will help to solve this problem.
