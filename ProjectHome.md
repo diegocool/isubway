@@ -1,0 +1,2 @@
+At this time it's only stub for project. Currently i'm working on architecture of application, and thinking about some methods to make it scalable for any subway map.
+As you can see, my English is poor (my native language is Russian) so if someone can (and want) to help me with translations - you're welcome.
